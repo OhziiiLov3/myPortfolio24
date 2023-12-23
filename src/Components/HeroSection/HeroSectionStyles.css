@@ -1,0 +1,65 @@
+
+
+
+section{
+     padding: 15px 25px;
+}
+
+
+section > h3{
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+section > h5{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
+.section-title{
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.section-p{
+    color: var(--font-color);
+    margin-bottom: 50px;
+    padding-top: 16px;
+    width: 50%;
+    font-size: 1.5rem;
+   
+}
+
+
+.hire-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  height: 30px;
+  padding: 2px 4px;
+  line-height: 30px;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  font-weight: "700";
+  text-align: center;
+  border: 2px solid #eda751;
+  border-radius: 25px;
+  color: var(--primary-white);
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.hire-btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-dark);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}

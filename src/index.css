@@ -5,12 +5,24 @@
   --secondary-color: #F8F7F3;
   --primary-dark: #181818;
   --primary-white: #fff;
+  --font-color: #676767;
 }
 
 *{
-  font-family: 'Montserrat';
+  font-family: 'Montserrat'; 
   
+
 }
+
+
 body{
 background-color: var(--secondary-color);
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
 }

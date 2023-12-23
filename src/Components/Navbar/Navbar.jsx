@@ -13,7 +13,7 @@ const closeMenu = () => setSideNav(false);
   return (
     <header>
       <nav className="navbar">
-        <h1 className="title">Keith L. Baskerville Jr.</h1>
+        <h1 className="title">Keith Baskerville Jr.</h1>
         <ul className={sideNav ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link
