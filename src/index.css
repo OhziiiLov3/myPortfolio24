@@ -16,7 +16,9 @@
 
 
 body{
-background-color: var(--secondary-color);
+  height: 100vh;
+  overflow-y: hidden;
+  background-color: var(--secondary-color);
   margin: 10px;
   padding: 0;
   box-sizing: border-box;
