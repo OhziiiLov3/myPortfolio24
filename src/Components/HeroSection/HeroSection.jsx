@@ -2,7 +2,7 @@ import "../HeroSection/HeroSectionStyles.css"
 
 const HeroSection = () => {
   return (
-
+    <div className="section-container">
       <section>
         <h3>Hello,</h3>
         <h1 className="section-title"> I'm Keith.</h1>
@@ -16,7 +16,7 @@ const HeroSection = () => {
           Hire Me
         </a>
       </section>
-
+    </div>
   );
 }
 

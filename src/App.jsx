@@ -1,7 +1,7 @@
 
 import './App.css'
-import HeroImage from './Components/HeroImage/Heroimage'
-import HeroSection from './Components/HeroSection/HeroSection'
+
+import Hero from "./Components/HeroComponent/Hero";
 import Navbar from './Components/Navbar/Navbar'
 
 function App() {
@@ -9,13 +9,12 @@ function App() {
 
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <main>
-        <HeroSection/>
-      <HeroImage/>
+         <Hero/>
       </main>
     </>
-  )
+  );
 }
 
 export default App
