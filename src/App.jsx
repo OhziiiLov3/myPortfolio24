@@ -1,5 +1,6 @@
 
 import './App.css'
+import Experience from './Components/Experience/Experience';
 
 import Hero from "./Components/HeroComponent/Hero";
 import Navbar from './Components/Navbar/Navbar'
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <main>
          <Hero/>
+         <Experience/>
       </main>
     </>
   );

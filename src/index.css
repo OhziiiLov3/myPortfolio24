@@ -6,20 +6,21 @@
   --primary-dark: #181818;
   --primary-white: #fff;
   --font-color: #676767;
+  --time-line-color: #a0a0a0;
 }
 
 *{
   font-family: 'Montserrat'; 
+   box-sizing: border-box;
 }
 
 
 body{
   height: 100vh;
-  overflow-y: hidden;
   background-color: var(--secondary-color);
   margin: 20px;
   padding: 0;
-  box-sizing: border-box;
+ 
 }
 
 

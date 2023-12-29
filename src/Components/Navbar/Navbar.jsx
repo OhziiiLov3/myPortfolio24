@@ -31,14 +31,14 @@ const closeMenu = () => setSideNav(false);
           <li className="nav-item">
             <Link
               className="nav-link"
-              to="about"
+              to="experience"
               spy={true}
               smooth={true}
               offset={-100}
               duration={500}
               onClick={closeMenu}
             >
-              About
+              Experience
             </Link>
           </li>
           <li className="nav-item">
@@ -65,16 +65,13 @@ const closeMenu = () => setSideNav(false);
               duration={500}
               onClick={closeMenu}
             >
-              Experience
+              Contact
             </Link>
           </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
           {sideNav ? (
-            <FaTimes
-              size={20}
-              style={{ color: "#181818" }}
-            />
+            <FaTimes size={20} style={{ color: "#181818" }} />
           ) : (
             <FaBars size={20} style={{ color: "#181818" }} />
           )}
