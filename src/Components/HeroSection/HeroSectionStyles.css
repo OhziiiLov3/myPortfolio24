@@ -45,7 +45,7 @@ section > h5{
   line-height: 30px;
   text-decoration: none;
   background-color: var(--primary-color);
-  font-weight: "700";
+  font-weight: 700;
   text-align: center;
   border: 2px solid #eda751;
   border-radius: 25px;

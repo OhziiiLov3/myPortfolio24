@@ -58,7 +58,7 @@ const closeMenu = () => setSideNav(false);
           <li className="nav-item">
             <Link
               className="nav-link"
-              to="experience"
+              to="contact"
               spy={true}
               smooth={true}
               offset={-100}

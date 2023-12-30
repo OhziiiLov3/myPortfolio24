@@ -40,6 +40,7 @@
   .hero .col-2 {
     height: auto; /* Adjust height for responsiveness */
     max-width: 100%;
+    min-height: 50vh;
   }
 
   .hero h1 {

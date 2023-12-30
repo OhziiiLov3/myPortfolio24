@@ -1,9 +1,10 @@
 
 import './App.css'
-import Experience from './Components/Experience/Experience';
-
-import Hero from "./Components/HeroComponent/Hero";
 import Navbar from './Components/Navbar/Navbar'
+import Hero from "./Components/HeroComponent/Hero";
+import Experience from './Components/Experience/Experience';
+import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
       <main>
          <Hero/>
          <Experience/>
+         <Projects/>
+         <Contact/>
       </main>
     </>
   );
