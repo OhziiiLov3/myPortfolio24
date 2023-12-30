@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import resume from "../../assets/resume.pdf"
 import "../Navbar/NavbarStyles.css";
 
 const Navbar = () => {
@@ -61,7 +62,7 @@ const closeMenu = () => setSideNav(false);
               to="contact"
               spy={true}
               smooth={true}
-              offset={-100}
+              offset={100}
               duration={500}
               onClick={closeMenu}
             >
@@ -76,9 +77,9 @@ const closeMenu = () => setSideNav(false);
             <FaBars size={20} style={{ color: "#181818" }} />
           )}
         </div>
-        <a className="resume-btn" href="">
-          Resume
-        </a>
+        <button className="resume-btn">
+          <a  href={resume} download="resume">Resume</a>
+        </button>
       </nav>
     </header>
   );

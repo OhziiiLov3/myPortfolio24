@@ -43,16 +43,16 @@ section > h5{
   height: 30px;
   padding: 2px 4px;
   line-height: 30px;
-  text-decoration: none;
   background-color: var(--primary-color);
   font-weight: 700;
   text-align: center;
   border: 2px solid #eda751;
   border-radius: 25px;
+  text-decoration: none;
   color: var(--primary-white);
   font-weight: bold;
   transition: background-color 0.3s, color 0.3s;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .hire-btn:hover {

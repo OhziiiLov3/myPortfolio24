@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import "../HeroSection/HeroSectionStyles.css"
 
 const HeroSection = () => {
@@ -12,9 +13,17 @@ const HeroSection = () => {
           to turn designs into seamless, innovative applications for an
           immersive digital experience
         </p>
-        <a href="" className="hire-btn">
-          Hire Me
-        </a>
+        <button className="hire-btn">
+          <Link 
+            spy={true}
+            smooth={true}
+            offset={100}
+            duration={500}
+            to="contact"
+          >
+            Hire Me
+          </Link>
+        </button>
       </section>
     </div>
   );

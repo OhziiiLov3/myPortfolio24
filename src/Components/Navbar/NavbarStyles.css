@@ -48,14 +48,20 @@ header .navbar {
   height: 30px;
   padding: 2px 4px;
   line-height: 30px;
-  text-decoration: none;
+
   font-weight: "700";
   text-align: center;
   border: 2px solid #eda751;
   border-radius: 25px;
   color: var(--primary-dark);
+  background-color: var(--primary-white);
   font-weight: bold;
   transition: background-color 0.3s, color 0.3s;
+}
+
+.resume-btn  a{
+  color: var(--primary-dark);
+  text-decoration: none;
 }
 
 .resume-btn:hover {
