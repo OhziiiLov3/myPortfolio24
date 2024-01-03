@@ -54,7 +54,7 @@
 }
 
 .project-img-container:hover {
-  background: linear-gradient(to right, #d4d9dd, #EDA751); 
+  background: linear-gradient(to right, #d4d9dd, var(--primary-color)); 
 }
 
 .project-img {

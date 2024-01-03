@@ -1,7 +1,8 @@
 .hero{
     width: 100%;
-
-    padding: 0 1rem;
+    padding: 1.5rem 1rem;
+    min-height: 80vh;
+    margin: 0;
 }
 
 .hero .container{
@@ -33,12 +34,12 @@
 
 @media screen and (max-width: 820px) {
   .hero .content {
-    grid-template-columns: 1fr; /* Switch to a single column layout */
+    grid-template-columns: 1fr; 
   }
 
   .hero .col-1,
   .hero .col-2 {
-    height: auto; /* Adjust height for responsiveness */
+    height: auto; 
     max-width: 100%;
     min-height: 50vh;
   }

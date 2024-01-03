@@ -62,6 +62,13 @@
     border-radius: 0.375rem;
     text-align: center;
     font-size: 14px;
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 @media (min-width: 768px) {

@@ -46,7 +46,7 @@ section > h5{
   background-color: var(--primary-color);
   font-weight: 700;
   text-align: center;
-  border: 2px solid #eda751;
+  border: 2px solid var(--primary-color);
   border-radius: 25px;
   text-decoration: none;
   color: var(--primary-white);
