@@ -19,9 +19,10 @@
 
 
 .projects-container > p{
-    color: var(--primary-dark);
+    color: var(--font-color);
     text-align: center;
     padding: 2rem 1rem;
+    font-weight: 800;
 }
 
 .project-item{

@@ -8,16 +8,40 @@ import zootyImg from "../../assets/images/zootywater.png"
 const Projects = () => {
   return (
     <div className="projects-container" id="projects">
-        <h1>Projects</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In minima sit architecto dignissimos est, commodi culpa expedita ea, at excepturi eos minus magni veritatis saepe!</p>
-        <div className="project-item">
-         <ProjectItem img={swiftImg} title={"SwiftStitch App"} project={"React & Django"}/>
-         <ProjectItem img={JmoImg} title={"Consultation App"} project={"Reactjs"}/>
-         <ProjectItem img={optimalImg} title={"Optimal Solutions App"} project={"Reactjs"} />
-         <ProjectItem img={zootyImg}title={"ZootyWater App"} project={"Django"} />
-        </div>
+      <h1>Projects</h1>
+      <p>
+        My portfolio showcases diverse projects, reflecting my skills as a
+        frontend engineer with a focus on intuitive designs and
+        functionality.
+      </p>
+      <div className="project-item">
+        <ProjectItem
+          img={swiftImg}
+          title={"SwiftStitch App"}
+          project={"React & Django"}
+          href={"https://ssupholstery.onrender.com"}
+        />
+        <ProjectItem
+          img={JmoImg}
+          title={"Consultation App"}
+          project={"Reactjs"}
+          href={"https://joinmyobession.netlify.app/"}
+        />
+        <ProjectItem
+          img={optimalImg}
+          title={"Optimal Solutions App"}
+          project={"Reactjs"}
+          href={"https://optimal-solutions.onrender.com/"}
+        />
+        <ProjectItem
+          img={zootyImg}
+          title={"ZootyWater App"}
+          project={"Django"}
+          href={"https://zootywater-app.onrender.com"}
+        />
+      </div>
     </div>
-  )
+  );
 }
 
 export default Projects

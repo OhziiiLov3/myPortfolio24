@@ -78,3 +78,19 @@ opacity: 1;
     margin: 0px 5px;
 }
 
+
+
+.light-toggle{
+    display: flex;
+    justify-content: center; 
+}
+
+.light-toggle h3{
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+.light-toggle i {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}

@@ -7,7 +7,9 @@ import { FaToggleOn } from "react-icons/fa";
 
 
 
-const Footer = () => {
+const Footer = ({theme, switchTheme}) => {
+
+    
   return (
     <footer>
       <div className="footer-container">
@@ -18,7 +20,7 @@ const Footer = () => {
           <a href="https://github.com/OhziiiLov3">
             <FaGithub />
           </a>
-          <a href="">
+          <a href="https://medium.com/@keith.baskerville ">
             <FaMedium />
           </a>
         </div>
@@ -40,10 +42,14 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Toggle */}
+      {/* Next Steps:
+         Add Dark mode/Toggle*/}
 
       {/* <div className="light-toggle">
-        <FaToggleOn />
+        <h3>Light Mode</h3>
+        <i onClick={switchTheme}>
+          <FaToggleOn />
+        </i>
       </div> */}
 
       <div className="footer-title">

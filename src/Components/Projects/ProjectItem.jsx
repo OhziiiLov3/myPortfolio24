@@ -1,6 +1,6 @@
 
 
-const ProjectItem = ({img, title, project}) => {
+const ProjectItem = ({img, title, project, href}) => {
   return (
     <div className="project-img-container">
       <img
@@ -12,7 +12,7 @@ const ProjectItem = ({img, title, project}) => {
       <div className="project-card">
         <h3 className="project-card-title">{title}</h3>
         <p>{project}</p>
-        <a href="/">
+        <a href={href}>
             <p className="moreInfo-btn">More Info</p>
         </a>
       </div>

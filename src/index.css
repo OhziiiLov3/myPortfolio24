@@ -9,6 +9,22 @@
   --time-line-color: #a0a0a0;
 }
 
+
+[data-theme='dark']{
+  --primary-color: #eda751;
+  --secondary-color: #181818;
+  --primary-dark: #fff;
+  --primary-white: #181818;
+  --font-color: #fff;
+   --time-line-color: #f8f7f3;
+}
+
+
+
+
+
+
+
 * {
   font-family: "Montserrat";
   box-sizing: border-box;
