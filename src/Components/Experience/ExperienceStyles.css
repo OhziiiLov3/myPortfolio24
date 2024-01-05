@@ -124,6 +124,11 @@
   .items-list {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .details-p{
+    font-size: .9rem;
   }
 
     .item-p {

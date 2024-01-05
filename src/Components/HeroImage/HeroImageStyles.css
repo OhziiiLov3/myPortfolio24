@@ -32,6 +32,7 @@
 @media screen and (max-width: 820px) {
     .heroImage-layout {
    max-width: 100%;
+   margin: auto;
   }
    .heroImage-container {
     padding: 2.5rem;
@@ -56,4 +57,29 @@
   }
 } 
 
+
+@media screen and (max-width: 600px) {
+    .heroImage-layout {
+        /* Adjust styles for small screens */
+        width: 100%;
+    }
+
+    .heroImage-container {
+        /* Adjust styles for small screens */
+        padding: 1.5rem;
+    }
+
+    .ellipse {
+        /* Adjust styles for small screens */
+        width: 250px;
+        height: 250px;
+        bottom: 0;
+    }
+
+    .heroImage {
+        /* Adjust styles for small screens */
+        width: 100%;
+        max-width: none;
+    }
+}
 
