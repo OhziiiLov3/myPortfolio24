@@ -173,17 +173,17 @@ header .navbar {
   }
 
   .title {
-    /* Adjust styles for screens smaller than 820px */
+
     font-size: medium;
   }
 
   .nav-menu {
-    bottom: 80px; /* Example adjustment */
+    bottom: 80px; 
   }
 
   .nav-item {
-    /* Adjust styles for screens smaller than 820px */
-    margin: 1rem 0; /* Example adjustment */
+   
+    margin: 1rem 0; 
     font-size: 1.5rem;
   }
 
