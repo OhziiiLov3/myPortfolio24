@@ -1,5 +1,5 @@
 import "../HeroComponent/HeroStyles.css"
-import HeroImage from '../HeroImage/Heroimage'
+import HeroImage from '../HeroImage/HeroImage'
 import HeroSection from '../HeroSection/HeroSection'
 
 const Hero = () => {
