@@ -3,12 +3,20 @@ import ExperienceItem from "../Experience/ExperienceItem";
 
 const data = [
   {
+    year: 2024,
+    title: "Software Engineer Tech Fellow ",
+    company: "Codepath",
+    duration: "Contract",
+    details:
+      "As a Tech Fellow, I collaborated with Salesforce’s Futureforce Tech Launchpad to train pre-interns in software engineering development. I supported training sessions and taught web development to over 25 pre-interns, enhancing their skills and readiness for full-stack development roles, resulting in a high internship placement rate. Collaborating with Salesforce mentors, I facilitated regular one-on-one sessions, providing personalized guidance to ensure pre-intern success. Additionally, I assisted with lectures, debugged and tested code, and supported capstone projects using HTML, CSS, and the PERN stack, improving the quality of student projects and increasing their proficiency in software engineering best practices.",
+  },
+  {
     year: 2022,
     title: "Sr. Instructor Associate",
     company: "General Assembly",
     duration: "2 years",
     details:
-      "As a Instructor Assoc., I work closely with Lead Instructors to guide students on a transformative journey towards their careers as Software Engineers. In addition, I deepen my own understanding and skill set as I empower driven enginners to build and depoly full stack appilcations.",
+      "As a Instructor Associate, I work closely with Lead Instructors to guide students on a transformative journey towards their careers as Software Engineers. In addition, I deepen my own understanding and skill set as I empower driven enginners to build and depoly full stack appilcations.",
   },
   {
     year: 2022,

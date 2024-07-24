@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem"
 import swiftImg from "../../assets/images/SwiftStitch.png" 
 import JmoImg from "../../assets/images/JMO.png" 
 import optimalImg from "../../assets/images/optimalSolutions.png" 
-import zootyImg from "../../assets/images/zootywater.png" 
+import fivespaceImg from "../../assets/images/fivespace.png" 
 
 const Projects = () => {
   return (
@@ -15,29 +15,29 @@ const Projects = () => {
         functionality.
       </p>
       <div className="project-item">
+      <ProjectItem
+          img={fivespaceImg}
+          title={"Fivespaces"}
+          project={"PERN App"}
+          href={"https://fivespaces.netlify.app/"}
+        />
         <ProjectItem
           img={swiftImg}
-          title={"SwiftStitch App"}
+          title={"SwiftStitch"}
           project={"React & Django"}
           href={"https://ssupholstery.onrender.com"}
         />
         <ProjectItem
           img={JmoImg}
-          title={"Consultation App"}
+          title={"JoinMyObession"}
           project={"Reactjs"}
           href={"https://joinmyobession.netlify.app/"}
         />
         <ProjectItem
           img={optimalImg}
-          title={"Optimal Solutions App"}
+          title={"Optimal Solutions"}
           project={"Reactjs"}
           href={"https://optimal-solutions.onrender.com/"}
-        />
-        <ProjectItem
-          img={zootyImg}
-          title={"ZootyWater App"}
-          project={"Django"}
-          href={"https://zootywater-app.onrender.com"}
         />
       </div>
     </div>

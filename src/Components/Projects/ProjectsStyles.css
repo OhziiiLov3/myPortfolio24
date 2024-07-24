@@ -82,16 +82,16 @@
 
 
 .project-card-title{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 900;
-    color: var(--primary-white);
+    color: var(--primary-dark);
     letter-spacing: 0.05rem;
     text-align: center;
 }
 
 .project-card > p{
     padding-bottom: 0.5rem;
-    color: var(--primary-white);
+    color: var(--primary-dark);
     text-align: center;
     font-weight: 800;
 }
