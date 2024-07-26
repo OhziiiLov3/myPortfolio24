@@ -52,7 +52,7 @@ const Projects = () => {
       project: 'Html, CSS, & Js',
       href: 'https://gofoodieintl.netlify.app/',
       videoUrl: goFoodieDemo,
-      deployedUrl: 'ttps://gofoodieintl.netlify.app/',
+      deployedUrl: 'https://gofoodieintl.netlify.app/',
       githubUrl: 'https://github.com/OhziiiLov3/GoFoodie',
       description: 'GoFoodie is a dynamic travel guide website designed to inspire and inform users about any global destination. It features a user-friendly layout that showcases top attractions, local cuisine, accommodations, and events, all presented with engaging Flexbox and responsive design. With additional features like a photo gallery and interactive navigation, GoFoodie offers an immersive virtual tour tailored to travelers interests using OpenStreetMap API'
     }
