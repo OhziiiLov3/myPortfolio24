@@ -23,7 +23,7 @@ const Projects = () => {
       href: 'https://fivespaces.netlify.app/',
       videoUrl: fivespaceVideo,
       deployedUrl: 'https://fivespaces.netlify.app/',
-      githubUrl: 'https://github.com/your_github_repo',
+      githubUrl: 'https://github.com/OhziiiLov3/kudos-board',
       description: 'Description of Fivespaces'
     },
     {
@@ -33,7 +33,7 @@ const Projects = () => {
       href: 'https://swiftstitch-bv13.onrender.com/',
       videoUrl: swiftstitchDemo,
       deployedUrl: 'https://swiftstitch-bv13.onrender.com/',
-      githubUrl: 'https://github.com/your_github_repo',
+      githubUrl: 'https://github.com/OhziiiLov3/SwiftStitchUpholstery_Live',
       description: 'Description of SwiftStitch'
     },
     {
@@ -43,7 +43,7 @@ const Projects = () => {
       href: 'https://joinmyobession.netlify.app/',
       videoUrl: jmoDemo,
       deployedUrl: 'https://joinmyobession.netlify.app/',
-      githubUrl: 'https://github.com/your_github_repo',
+      githubUrl: 'https://github.com/OhziiiLov3/jmo-website-v2',
       description: 'Description of JoinMyObession'
     },
     {
