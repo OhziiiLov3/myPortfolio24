@@ -25,7 +25,7 @@ const Projects = () => {
           img={swiftImg}
           title={"SwiftStitch"}
           project={"React & Django"}
-          href={"https://ssupholstery.onrender.com"}
+          href={"https://swiftstitch-bv13.onrender.com/"}
         />
         <ProjectItem
           img={JmoImg}
