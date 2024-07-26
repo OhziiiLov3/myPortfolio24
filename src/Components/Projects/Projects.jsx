@@ -24,7 +24,7 @@ const Projects = () => {
       videoUrl: fivespaceVideo,
       deployedUrl: 'https://fivespaces.netlify.app/',
       githubUrl: 'https://github.com/OhziiiLov3/kudos-board',
-      description: 'Description of Fivespaces'
+      description: 'Fivespace - Social Club is a dynamic platform where users can create and manage boards filled with interactive cards featuring GIFs from the Giphy API. The app offers a user-friendly interface for browsing, filtering, and searching boards, as well as creating, upvoting, and deleting cards. With robust user authentication and comment functionality, Fivespace ensures an engaging experience, all hosted with a React frontend and a backend powered by Express, Node, PostgreSQL, and Prisma.'
     },
     {
       img: swiftImg,
@@ -34,7 +34,7 @@ const Projects = () => {
       videoUrl: swiftstitchDemo,
       deployedUrl: 'https://swiftstitch-bv13.onrender.com/',
       githubUrl: 'https://github.com/OhziiiLov3/SwiftStitchUpholstery_Live',
-      description: 'Description of SwiftStitch'
+      description: 'SwiftStitch is a comprehensive ecommerce solution tailored for an upholstery business, built with React, Django, and Redux. The application streamlines operations with efficient state management and seamless PayPal integration, offering an intuitive admin panel for managing orders, inventory, and customer interactions. It provides users with a smooth experience for placing orders and completing transactions, while admins benefit from robust tools for managing users and tracking orders.'
     },
     {
       img: JmoImg,
@@ -44,7 +44,7 @@ const Projects = () => {
       videoUrl: jmoDemo,
       deployedUrl: 'https://joinmyobession.netlify.app/',
       githubUrl: 'https://github.com/OhziiiLov3/jmo-website-v2',
-      description: 'Description of JoinMyObession'
+      description: 'JoinMyObsession is a fitness scheduling website designed for personalized exercise consultations. Built with React, Calendly API, and EmailJS, the app allows users to view availability and book appointments seamlessly while also providing a contact feature for inquiries. With a focus on minimal design and efficient scheduling, the application aims to enhance user experience by offering easy appointment management and communication with the client.'
     },
     {
       img: goFoodieImg,
@@ -54,7 +54,7 @@ const Projects = () => {
       videoUrl: goFoodieDemo,
       deployedUrl: 'ttps://gofoodieintl.netlify.app/',
       githubUrl: 'https://github.com/OhziiiLov3/GoFoodie',
-      description: 'Description of GoFooide'
+      description: 'GoFoodie is a dynamic travel guide website designed to inspire and inform users about any global destination. It features a user-friendly layout that showcases top attractions, local cuisine, accommodations, and events, all presented with engaging Flexbox and responsive design. With additional features like a photo gallery and interactive navigation, GoFoodie offers an immersive virtual tour tailored to travelers interests using OpenStreetMap API'
     }
   ];
 
