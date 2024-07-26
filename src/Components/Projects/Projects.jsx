@@ -3,13 +3,13 @@ import "../Projects/ProjectsStyles.css"
 import Modal from "../Modal/Modal"
 import ProjectItem from "./ProjectItem"
 import swiftImg from "../../assets/images/SwiftStitch.png" 
-import swiftstitchDemo from "../../assets/videos/swiftstitchDemo.mov"
+import swiftstitchDemo from "../../assets/videos/swiftstitchDemo.mp4"
 import goFoodieImg from "../../assets/images/goFoodieImg.png"
-import goFoodieDemo from "../../assets/videos/goFoodieDemo.mov" 
+import goFoodieDemo from "../../assets/videos/goFoodieDemo.mp4" 
 import fivespaceImg from "../../assets/images/fivespace.png" 
-import fivespaceVideo from "../../assets/videos/fivespaceDemo.mov"
+import fivespaceVideo from "../../assets/videos/fivespaceDemo.mp4"
 import JmoImg from "../../assets/images/JMO.png" 
-import jmoDemo from "../../assets/videos/jmoDemo.mov"
+import jmoDemo from "../../assets/videos/jmoDemo.mp4"
 
 const Projects = () => {
   const [modalOpen, setModalOpen] = useState(false);
