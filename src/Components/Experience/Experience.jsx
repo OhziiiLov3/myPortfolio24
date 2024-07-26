@@ -8,7 +8,7 @@ const data = [
     company: "Codepath",
     duration: "Contract",
     details:
-      "As a Tech Fellow, I collaborated with Salesforce’s Futureforce Tech Launchpad to train pre-interns in software engineering development. I supported training sessions and taught web development to over 25 pre-interns, enhancing their skills and readiness for full-stack development roles, resulting in a high internship placement rate. Collaborating with Salesforce mentors, I facilitated regular one-on-one sessions, providing personalized guidance to ensure pre-intern success. Additionally, I assisted with lectures, debugged and tested code, and supported capstone projects using HTML, CSS, and the PERN stack, improving the quality of student projects and increasing their proficiency in software engineering best practices.",
+      "As a Tech Fellow, I collaborated with Salesforce’s Futureforce Tech Launchpad to train over 25 pre-interns in software engineering development, enhancing their skills and readiness for full-stack roles, resulting in a high internship placement rate. I supported training sessions, taught web development, provided personalized guidance, and assisted with lectures, debugging, testing, and capstone projects using HTML, CSS, Javascript, React, Express, Node, and Postgres.",
   },
   {
     year: 2022,
