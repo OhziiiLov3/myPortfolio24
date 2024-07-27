@@ -1,14 +1,25 @@
+import { useRef } from "react";
 import "../Contact/ContactStyles.css";
 
 const Contact = () => {
+  const formRef = useRef(null);
+
+  const handleSubmit = (e) =>{
+    // e.preventDefault();
+    if (formRef.current) {
+      formRef.current.reset();
+    }
+  }
   return (
     <div className="contact-form-container" id="contact">
       <h1>Contact</h1>
       <form
+       ref={formRef}
         action="https://getform.io/f/0f107b51-8f5f-40a1-972d-c2e892a27f01"
         method="POST"
         encType="multipart/form-data"
         className="contact-form"
+        onSubmit={handleSubmit}
       >
         <div className="grid-container">
           <div className="input-container">
