@@ -1,6 +1,6 @@
 
 .section-container{
-    margin: auto;
+
     max-height: 70vh;
 }
 
@@ -40,12 +40,13 @@ section > h5{
   justify-content: center;
   align-items: center;
   width: 50%;
-  padding: 2px 4px;
+  padding: 6px 4px;
   line-height: 30px;
   background-color: var(--primary-color);
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 1.2rem;
   text-align: center;
-  border: 2px solid var(--primary-color);
+  border: none;
   border-radius: 25px;
   text-decoration: none;
   color: var(--primary-white);
@@ -55,8 +56,8 @@ section > h5{
 }
 
 .hire-btn:hover {
-  background-color: var(--secondary-color);
-  color: var(--primary-dark);
+  background-color: var(--primary-color-dark);
+  color: var(--primary-white);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 

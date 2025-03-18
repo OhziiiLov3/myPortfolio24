@@ -9,8 +9,7 @@ const HeroSection = () => {
         <h1 className="section-title"> I&apos;m Keith.</h1>
         <h5>Software Engineer</h5>
         <p className="section-p">
-          Hi , I am a passionate Frontend Engineer that has the ability
-          to turn designs into seamless full stack applications
+        Hi, I'm a Full Stack Developer with a strong eye for web design. I specialize in turning creative concepts into seamless, full-stack applications, utilizing cloud solutions and AI.
         </p>
         <button className="hire-btn">
           <Link 

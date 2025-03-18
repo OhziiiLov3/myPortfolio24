@@ -10,12 +10,36 @@ import fivespaceImg from "../../assets/images/fivespace.png"
 import fivespaceVideo from "../../assets/videos/fivespaceDemo.mp4"
 import JmoImg from "../../assets/images/JMO.png" 
 import jmoDemo from "../../assets/videos/jmoDemo.mp4"
+import driftImg from "../../assets/images/drift.png"
+import driftDemo from "../../assets/videos/driftDemo.mov";
+import chatbotImg from "../../assets/images/aichatbotImg.png"
+import chatbotDemo from "../../assets/videos/chatbotDemo.mov";
 
 const Projects = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [currentProject, setCurrentProject] = useState(null);
 
   const projects = [
+    {
+      img: driftImg,
+      title: 'Drift',
+      project: 'AWS Solutions',
+      href: 'http://drift-website-v1.s3-website-us-west-1.amazonaws.com/',
+      videoUrl: driftDemo,
+      deployedUrl: 'http://drift-website-v1.s3-website-us-west-1.amazonaws.com/',
+      githubUrl: 'https://github.com/OhziiiLov3/AWS-Cloud-Projects/tree/main/static-website-aws',
+      description: 'Drift – AI-Driven Cloud Solutions is a serverless web solution designed to showcase scalable, AI-driven cloud infrastructure. Built with a microservices architecture, Drift leverages AWS-managed services to ensure high performance, security, and automation. The platform features seamless static site hosting via AWS S3 and CloudFront, serverless backend functions powered by AWS Lambda and API Gateway, and a NoSQL database using DynamoDB for efficient data storage. With AWS Cognito handling authentication and IAM securing access control, Drift provides a fully cloud-native experience, integrating automated email processing via Amazon SES and real-time monitoring with CloudWatch.'
+    },
+    {
+      img: chatbotImg,
+      title: 'AI FAQ Bot',
+      project: 'Next.js & Open AI',
+      href: 'https://ai-faq-bot.vercel.app/',
+      videoUrl: chatbotDemo,
+      deployedUrl: 'https://ai-faq-bot.vercel.app/',
+      githubUrl: 'https://github.com/OhziiiLov3/ai-faq-bot',
+      description: 'AI-Powered FAQ Chatbot is an intelligent, serverless chatbot designed to provide seamless, AI-driven responses for frequently asked questions. Built with Next.js, TypeScript, and React, the chatbot leverages the Vercel AI SDK to integrate OpenAI’s GPT-4o-mini, enabling dynamic and responsive interactions. The platform features a modern UI with CSS modules, real-time message handling via useChat from @ai-sdk/react, and persistent chat history using localStorage. With a serverless API route managing AI responses, AI-Powered FAQ Chatbot delivers a fast, scalable, and interactive user experience, making it an ideal solution for AI-driven customer support and knowledge sharing.'
+    },
     {
       img: fivespaceImg,
       title: 'Fivespaces',
@@ -73,9 +97,7 @@ const Projects = () => {
     <div className="projects-container" id="projects">
       <h1>Projects</h1>
       <p>
-        My portfolio showcases diverse projects, reflecting my skills as a
-        frontend engineer with a focus on intuitive designs and
-        functionality.
+      My portfolio showcases diverse projects, reflecting my expertise in web design, microservice solutions, and scalable architecture, with a focus on intuitive user experiences and seamless functionality.
       </p>
       <div className="project-item">
       {projects.map((project, index) => (

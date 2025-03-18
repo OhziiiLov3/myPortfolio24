@@ -66,15 +66,18 @@
     width: 100%;
     padding: 1rem;
     border-radius: 10px;
+    border: none;
     text-align: center;
-    font-size: 14px;
+    font-size: 1rem;
+    font-weight: 900;
     border-color: var(--primary-color);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
     cursor: pointer;
 }
 
 .contact-btn:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: var(--primary-color-dark); 
 }
 
 @media (min-width: 768px) {

@@ -3,20 +3,20 @@ import ExperienceItem from "../Experience/ExperienceItem";
 
 const data = [
   {
-    year: 2024,
+    year: 2025,
     title: "Software Engineer Tech Fellow ",
     company: "Codepath",
-    duration: "Contract",
+    duration: "Seasonal Contract",
     details:
       "As a Tech Fellow, I collaborated with Salesforce’s Futureforce Tech Launchpad to train over 25 pre-interns in software engineering development, enhancing their skills and readiness for full-stack roles, resulting in a high internship placement rate. I supported training sessions, taught web development, provided personalized guidance, and assisted with lectures, debugging, testing, and capstone projects using HTML, CSS, Javascript, React, Express, Node, and Postgres.",
   },
   {
-    year: 2022,
+    year: 2025,
     title: "Sr. Instructor Associate",
     company: "General Assembly",
-    duration: "2 years",
+    duration: "3 years",
     details:
-      "As a Instructor Associate, I work closely with Lead Instructors to guide students on a transformative journey towards their careers as Software Engineers. In addition, I deepen my own understanding and skill set as I empower driven enginners to build and depoly full stack appilcations.",
+      "As a Instructor Associate, I work closely with Lead Instructors to guide students on a transformative journey towards their careers as Software Engineers. In addition, I deepen my own understanding and skill set as I empower driven engineers to build and depoly full stack appilcations.",
   },
   {
     year: 2022,

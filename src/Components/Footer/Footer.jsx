@@ -8,7 +8,7 @@ import { FaToggleOn } from "react-icons/fa";
 
 
 const Footer = ({theme, switchTheme}) => {
-
+   const designedYear = new Date().getFullYear();
     
   return (
     <footer>
@@ -42,19 +42,10 @@ const Footer = ({theme, switchTheme}) => {
         </div>
       </div>
 
-      {/* Next Steps:
-         Add Dark mode/Toggle*/}
-
-      {/* <div className="light-toggle">
-        <h3>Light Mode</h3>
-        <i onClick={switchTheme}>
-          <FaToggleOn />
-        </i>
-      </div> */}
 
       <div className="footer-title">
         <p>
-          Copyright &copy; 2024; Designed by{" "}
+          Copyright &copy; {designedYear}; Designed by{" "}
           <span className="designer">Keith B.</span>
         </p>
       </div>
