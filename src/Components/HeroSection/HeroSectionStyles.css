@@ -63,10 +63,10 @@ section > h5{
 
 
 @media screen and (max-width: 820px) {
-    /* .section-container{
+    .section-container{
         padding: 1rem;
         margin: 0;
-    } */
+    }
 
    section > h5{
     font-size: 2rem;

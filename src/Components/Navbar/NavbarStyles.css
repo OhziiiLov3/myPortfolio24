@@ -26,7 +26,7 @@ header .navbar {
   overflow: hidden;
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Aligns items vertically */
+  align-items: center; 
 }
 
 .hamburger {
@@ -131,7 +131,7 @@ header .navbar {
   .nav-menu {
     position: fixed;
     left: -100%;
-    bottom: 100px;
+    bottom: 400px;
     flex-direction: column;
     justify-content: center;
     background-color: var(--primary-color);
@@ -140,19 +140,25 @@ header .navbar {
     text-align: center;
     transition: 0.5s;
     z-index: 10;
-    font-size: 1rem; /* Adjust font size for mobile */
+    font-size: 1rem; 
   }
   .nav-menu.active {
     left: 0;
   }
+
+  .nav-item a:hover{
+    color: var(--primary-white);
+  }
+
+ 
   .nav-item {
     margin: 1.5rem 0;
     font-size: 1.2rem;
   }
   .nav-link {
     color: var(--primary-white);
-    background-color: var(--primary-color);
   }
+  
   .resume-btn {
     display: none;
   }
@@ -165,10 +171,12 @@ header .navbar {
 
   header .navbar {
     justify-content: center;
+    align-items: center;
   }
 
   .title {
     font-size: 1.5rem;
+    text-align: center;
   }
 
   .nav-menu {

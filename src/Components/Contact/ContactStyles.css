@@ -80,8 +80,28 @@
     background-color: var(--primary-color-dark); 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+ 
+  .contact-form-container {
+    padding: 0 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .grid-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .contact-form-container > h1 {
+    font-size: 2.2rem;
+    margin-right: 0;
+  }
+
+  .contact-btn {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 20px;
   }
 }

@@ -32,6 +32,9 @@
 @media screen and (max-width: 820px) {
     .heroImage-layout {
    max-width: 100%;
+   display: flex;
+   justify-items: center;
+   align-items: center;
    margin: auto;
   }
    .heroImage-container {

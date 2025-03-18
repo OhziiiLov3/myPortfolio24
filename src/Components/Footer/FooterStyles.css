@@ -9,7 +9,7 @@ footer{
 .footer-container{
     width: 100%;
     max-width: 100%;
-    padding: 0 1.5rem;
+    padding:  1.5rem;
 }
 
 .social-links-container{
@@ -32,8 +32,8 @@ footer{
 
 
 .social-links-container a:hover{
-    background-color: var(--primary-dark);
-    color: var(--primary-color);
+    background-color: var(--primary-color-dark);
+    color: var(--primary-white);
     transition: 0.5s;
 }
 
