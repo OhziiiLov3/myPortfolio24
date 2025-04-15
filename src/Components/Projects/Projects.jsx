@@ -4,6 +4,8 @@ import Modal from "../Modal/Modal"
 import ProjectItem from "./ProjectItem"
 // import swiftImg from "../../assets/images/SwiftStitch.png" 
 // import swiftstitchDemo from "../../assets/videos/swiftstitchDemo.mp4"
+// import swiftImg from "../../assets/images/SwiftStitch.png" 
+// import swiftstitchDemo from "../../assets/videos/swiftstitchDemo.mp4"
 import goFoodieImg from "../../assets/images/goFoodieImg.png"
 import goFoodieDemo from "../../assets/videos/goFoodieDemo.mp4" 
 import fivespaceImg from "../../assets/images/fivespace.png" 
@@ -15,6 +17,7 @@ import sparkPropertiesImg from "../../assets/images/sparkProperties.png";
 import driftDemo from "../../assets/videos/driftDemo.mov";
 import chatbotImg from "../../assets/images/aichatbotImg.png"
 import chatbotDemo from "../../assets/videos/chatbotDemo.mov";
+
 
 
 const Projects = () => {
