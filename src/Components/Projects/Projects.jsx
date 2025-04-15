@@ -27,8 +27,8 @@ const Projects = () => {
       title: 'Spark Properties',
       project: 'Next.js',
       href: 'https://https://spark-properties.vercel.app/',
-      videoUrl: sparkPropertiesDemo,
-      deployedUrl: 'https://https://spark-properties.vercel.app/',
+      videoUrl: 'https://res.cloudinary.com/dhwcscxdh/video/upload/v1744743066/SparkProrpertiesTrim_cbciz9.mov',
+      deployedUrl: 'https://spark-properties.vercel.app/',
       githubUrl: 'https://github.com/OhziiiLov3/Spark-Properties',
       description: 'Spark Properties is a full-stack property rental app built with Next.js and MongoDB. It lets users sign in with Google, create and manage listings, upload multiple images with Cloudinary, and explore properties on an interactive Mapbox map. The app features real-time messaging, saved listings, social sharing, and a clean, responsive design using Tailwind CSS. With secure authentication, dynamic routing, and a smooth user experience, Spark Properties makes renting simple and intuitive.'
     },
