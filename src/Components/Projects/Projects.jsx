@@ -15,7 +15,7 @@ import sparkPropertiesImg from "../../assets/images/sparkProperties.png";
 import driftDemo from "../../assets/videos/driftDemo.mov";
 import chatbotImg from "../../assets/images/aichatbotImg.png"
 import chatbotDemo from "../../assets/videos/chatbotDemo.mov";
-// import sparkPropertiesDemo from "../../assets/videos/sparkPropertiesEdit.mov";
+
 
 const Projects = () => {
   const [modalOpen, setModalOpen] = useState(false);
