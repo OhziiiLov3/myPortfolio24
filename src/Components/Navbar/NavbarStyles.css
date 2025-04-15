@@ -131,7 +131,7 @@ header .navbar {
   .nav-menu {
     position: fixed;
     left: -100%;
-    bottom: 400px;
+    bottom: 50px;
     flex-direction: column;
     justify-content: center;
     background-color: var(--primary-color);
@@ -180,8 +180,8 @@ header .navbar {
   }
 
   .nav-menu {
-    bottom: 80px;
-    font-size: 0.9rem; /* Slightly smaller font size on smaller screens */
+    bottom:50px;
+    font-size: 0.9rem; 
   }
 
   .nav-item {
