@@ -1,27 +1,39 @@
+import { useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import ProjectDetail from './pages/ProjectDetail';
 
-import './App.css'
-import Navbar from './Components/Navbar/Navbar'
-import Hero from "./Components/HeroComponent/Hero";
-import Experience from './Components/Experience/Experience';
-import Projects from './Components/Projects/Projects';
-import Contact from './Components/Contact/Contact';
-import Footer from './Components/Footer/Footer';
+/* Router links carrying a hash (e.g. "/#work") change the URL without moving
+   the page, so scroll to the target once the destination has rendered. */
+const ScrollToHash = () => {
+  const { pathname, hash } = useLocation();
 
+  useEffect(() => {
+    if (!hash) return;
+    const target = document.getElementById(hash.slice(1));
+    if (target) target.scrollIntoView({ block: 'start' });
+  }, [pathname, hash]);
 
-function App() {
+  return null;
+};
 
-  return (
-    <div className='app' >
-      <Navbar />
-      <main>
-         <Hero/>
-         <Experience/>
-         <Projects/>
-         <Contact/>
-      </main>
-         <Footer />
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <a className="skip-link" href="#main">Skip to content</a>
+    <Nav />
+    <ScrollToHash />
 
-export default App
+    <main id="main">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/work/:slug" element={<ProjectDetail />} />
+      </Routes>
+    </main>
+
+    <Footer />
+  </>
+);
+
+export default App;

@@ -2,9 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Keith L. Baskerville</title>
+
+    <title>Keith L. Baskerville Jr. — Backend &amp; Applied AI Engineer</title>
+    <meta
+      name="description"
+      content="Keith L. Baskerville Jr. — backend and applied AI engineer in the SF Bay Area. Full-stack systems on Node, Python, and AWS."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Keith L. Baskerville Jr. — Backend &amp; Applied AI Engineer" />
+    <meta
+      property="og:description"
+      content="Keith L. Baskerville Jr. — backend and applied AI engineer in the SF Bay Area. Full-stack systems on Node, Python, and AWS."
+    />
+    <meta property="og:url" content="https://keithbaskerville-dev.netlify.app/" />
+    <meta property="og:image" content="https://keithbaskerville-dev.netlify.app/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Keith L. Baskerville Jr. — Backend &amp; Applied AI Engineer" />
+    <meta
+      name="twitter:description"
+      content="Keith L. Baskerville Jr. — backend and applied AI engineer in the SF Bay Area. Full-stack systems on Node, Python, and AWS."
+    />
+    <meta name="twitter:image" content="https://keithbaskerville-dev.netlify.app/og.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <script>
+      // Set the theme before first paint so the page never flashes the wrong palette.
+      (function () {
+        var stored = localStorage.getItem('theme');
+        var dark = stored
+          ? stored === 'dark'
+          : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
